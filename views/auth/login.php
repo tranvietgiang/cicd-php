@@ -25,9 +25,7 @@ if (!isset($error)) {
                     <h1 id="login-title" class="text-[28px] font-bold leading-tight text-slate-900">Sign in</h1>
                 </div>
             </div>
-            <h1>
-                <h1>CI/CD TEST 12-06-2026</h1>
-            </h1>
+
 
             <?php if (!empty($success)): ?>
                 <div class="mb-4 rounded-md border border-green-300 bg-green-50 p-3 text-sm text-green-800"><?php echo htmlspecialchars($success, ENT_QUOTES, 'UTF-8'); ?></div>
@@ -38,6 +36,9 @@ if (!isset($error)) {
             <?php endif; ?>
 
             <form method="post">
+                <h1>
+                    <h1>CI/CD TEST 12-06-2026</h1>
+                </h1>
                 <div class="mb-4">
                     <label for="name" class="mb-2 block text-sm font-bold text-slate-700">Username</label>
                     <input class="min-h-11 w-full rounded-md border border-slate-300 px-3 py-2 text-[15px] text-slate-900 outline-none focus:border-teal-700 focus:ring-4 focus:ring-teal-700/15" type="text" id="name" name="name" autocomplete="username" required autofocus>
